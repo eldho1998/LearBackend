@@ -28,7 +28,7 @@ module.exports.signUpUser = async (req, res) => {
   }
 };
 
-//2. Login
+//2. Login controller with time
 module.exports.loginUser = async (req, res) => {
   try {
     const body = req.body;
